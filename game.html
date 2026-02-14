@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpeakLanka - English A-Z Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game-container">
+    <header>
+        <img src="images/logo.png" class="logo" alt="Logo">
+        <h1>Learn English A-Z!</h1>
+        <p id="level">Level: 1</p>
+        <p id="score">Score: 0</p>
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="letter-box">
+            <h2 id="letter">A</h2>
+            <button id="playSound">🔊 Hear Letter</button>
+            <p id="hint">Hint: e.g., Apple 🍎</p>
+        </div>
+
+        <div class="quiz-box">
+            <h3 id="question">Select the correct word</h3>
+            <div class="options">
+                <button class="option-btn" id="opt1"></button>
+                <button class="option-btn" id="opt2"></button>
+                <button class="option-btn" id="opt3"></button>
+                <button class="option-btn" id="opt4"></button>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
